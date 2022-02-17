@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open serif", sans-serif;
+  margin: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.header a {
+  color: rgba(78, 20, 20, 0.699);
+  text-decoration: none;
+}
+.header-logo {
+  margin-right: 200px;
+  float: left;
+  padding: 10px;
+}
+.header-navigation {
+  padding: 0px;
+  background-color: #d2a679;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+.menu-item {
+  display: inline-block;
+  padding: 10px;
+}
+.menu-link {
+  font-size: 18px;
+  text-transform: uppercase;
+
